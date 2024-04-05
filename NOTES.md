@@ -1,6 +1,7 @@
 Requirements:
 
 Login page
+tyhy6h
 
 Perplexity page to pull documents, write a two sentence thing that says if each trade was compliant or not based on rules
 
