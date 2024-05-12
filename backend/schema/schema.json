@@ -1,0 +1,241 @@
+{
+    "entities": [
+      {
+        "name": "Company",
+        "description": "A legally recognized business entity involved in commercial, industrial, or professional activities."
+      },
+      {
+        "name": "Subsidiary",
+        "description": "A company controlled by another company, known as the parent company."
+      },
+      {
+        "name": "Asset",
+        "description": "Resources owned by the company that are expected to provide future economic benefits."
+      },
+      {
+        "name": "Liability",
+        "description": "Financial obligations of a company that it is required to pay in the future."
+      },
+      {
+        "name": "Equity",
+        "description": "Ownership value in the company represented by shares."
+      },
+      {
+        "name": "Revenue",
+        "description": "Total income generated from normal business operations."
+      },
+      {
+        "name": "Expense",
+        "description": "Money spent or costs incurred in an organization's efforts to generate revenue."
+      },
+      {
+        "name": "Profit",
+        "description": "The financial gain realized when the amount of revenue gained exceeds the expenses and taxes needed to sustain the activity."
+      },
+      {
+        "name": "Debt",
+        "description": "An amount of money borrowed by the company to be paid back at a later date."
+      },
+      {
+        "name": "Investment",
+        "description": "Money committed or property acquired for future income."
+      },
+      {
+        "name": "Dividend",
+        "description": "A sum of money paid regularly by a company to its shareholders out of its profits."
+      },
+      {
+        "name": "Bond",
+        "description": "A fixed income instrument that represents a loan made by an investor to a borrower."
+      },
+      {
+        "name": "Stock",
+        "description": "Type of security that signifies proportionate ownership in the issuing corporation."
+      },
+      {
+        "name": "Option",
+        "description": "Contracts that give the buyer the right, but not the obligation, to buy or sell an underlying asset at a set price on or before a certain date."
+      },
+      {
+        "name": "Derivative",
+        "description": "A financial security with a value that is reliant upon or derived from, an underlying asset or group of assets."
+      },
+      {
+        "name": "Hedge Fund",
+        "description": "An alternative investment vehicle available only to sophisticated investors, such as institutions and individuals with significant assets."
+      },
+      {
+        "name": "Mutual Fund",
+        "description": "An investment program funded by shareholders that trades in diversified holdings and is professionally managed."
+      },
+      {
+        "name": "Exchange-Traded Fund (ETF)",
+        "description": "A type of security that involves a collection of securities—such as stocks—that often tracks an underlying index."
+      },
+      {
+        "name": "Audit",
+        "description": "A systematic review and assessment of information or documents."
+      },
+      {
+        "name": "Tax",
+        "description": "A financial charge or other levy imposed upon a taxpayer by a governmental organization."
+      },
+      {
+        "name": "Regulatory Filing",
+        "description": "Official documents filed to comply with regulations imposed by financial authorities."
+      },
+      {
+        "name": "Compliance Report",
+        "description": "A document or set of documents that detail a company's adherence to regulatory guidelines."
+      },
+      {
+        "name": "Insider Trading",
+        "description": "The trading of a public company's stock or other securities by individuals with access to non-public information about the company."
+      },
+      {
+        "name": "Merger",
+        "description": "A combination of two companies to form a new entity."
+      },
+      {
+        "name": "Acquisition",
+        "description": "The process of acquiring control of another corporation by purchase or stock exchange."
+      },
+      {
+        "name": "IPO",
+        "description": "Initial public offering, or the process by which a private company can go public by sale of its stocks to general public."
+      },
+      {
+        "name": "Market Cap",
+        "description": "The market value of a company's outstanding shares."
+      },
+      {
+        "name": "Credit Rating",
+        "description": "An evaluation of the credit risk of a prospective debtor, predicting their ability to pay back the debt."
+      },
+      {
+        "name": "Leverage",
+        "description": "The use of various financial instruments or borrowed capital to increase the potential return of an investment."
+      },
+      {
+        "name": "Interest Rate",
+        "description": "The amount charged, expressed as a percentage of principal, by a lender to a borrower for the use of assets."
+      },
+      {
+        "name": "Financial Analyst",
+        "description": "A professional who performs financial analysis for external or internal clients as a core part of the job."
+      },
+      {
+        "name": "Regulator",
+        "description": "An authority or agency responsible for exercising autonomous authority over some area of human activity in a regulatory or supervisory capacity."
+      },
+      {
+        "name": "Economic Indicator",
+        "description": "A statistic about an economic activity, allowing analysis of economic performance and predictions of future performance."
+      },
+      {
+        "name": "Financial Statement",
+        "description": "A formal record of the financial activities and position of a business, person, or other entity."
+      }
+    ],
+    "relations": [
+      {
+        "name": "owns",
+        "description": "Indicates ownership or control of one entity over another."
+      },
+      {
+        "name": "controls",
+        "description": "Denotes the governance or directional influence over operations and management of an entity."
+      },
+      {
+        "name": "reports to",
+        "description": "An entity, typically a person, who is answerable to a higher body."
+      },
+      {
+        "name": "pays",
+        "description": "A transfer of money, typically as payment."
+      },
+      {
+        "name": "borrows",
+        "description": "The action of receiving something from someone with the expectation of returning it or its equivalent."
+      },
+      {
+        "name": "invests in",
+        "description": "The action of committing money or capital in order to gain a financial return."
+      },
+      {
+        "name": "issued by",
+        "description": "Typically refers to financial instruments or products being made available by an entity."
+      },
+      {
+        "name": "regulated by",
+        "description": "Being subject to the guidance or control of a regulatory authority."
+      },
+      {
+        "name": "complies with",
+        "description": "Conforming to a rule, such as a specification, policy, standard or law."
+      },
+      {
+        "name": "violates",
+        "description": "Fail to comply with rules, regulations, or agreements."
+      },
+      {
+        "name": "audited by",
+        "description": "The process of an audit being carried out by an auditor or regulatory body."
+      },
+      {
+        "name": "acquires",
+        "description": "One entity taking ownership of another."
+      },
+      {
+        "name": "merges with",
+        "description": "Combination of two entities to form a new one."
+      },
+      {
+        "name": "listed on",
+        "description": "The action of being included on a list or register, typically in the context of a stock exchange."
+      }
+    ],
+    "patterns": [
+      {
+        "head": "Company",
+        "relation": "owns",
+        "tail": "Subsidiary"
+      },
+      {
+        "head": "Company",
+        "relation": "reports to",
+        "tail": "Regulator"
+      },
+      {
+        "head": "Company",
+        "relation": "pays",
+        "tail": "Tax"
+      },
+      {
+        "head": "Company",
+        "relation": "invests in",
+        "tail": "Asset"
+      },
+      {
+        "head": "Bond",
+        "relation": "issued by",
+        "tail": "Company"
+      },
+      {
+        "head": "Company",
+        "relation": "regulated by",
+        "tail": "Regulatory Authority"
+      },
+      {
+        "head": "Financial Analyst",
+        "relation": "analyzes",
+        "tail": "Financial Statement"
+      },
+      {
+        "head": "Financial Statement",
+        "relation": "reflects",
+        "tail": "Economic Indicator"
+      }
+    ]
+  }
+  
